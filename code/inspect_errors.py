@@ -21,6 +21,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 from train_model import TextCleaner
+from text_cleaner import TextCleaner
 
 def main(args):
     print("Loading data:", args.data)

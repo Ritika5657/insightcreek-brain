@@ -1,6 +1,8 @@
 # predict_today.py
+
 import joblib
 import os
+from text_cleaner import TextCleaner   # <-- FIXED import
 
 MODEL_PATH = os.environ.get("LEAD_MODEL_PATH", "models/lead_pipeline.joblib")
 

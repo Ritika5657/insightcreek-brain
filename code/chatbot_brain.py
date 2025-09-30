@@ -1,7 +1,9 @@
 # chatbot_brain.py
+
 import random
 from analysis import sentiment_score, top_keywords
 from predict_today import load_model, predict_probability
+from text_cleaner import TextCleaner
 
 # load model once
 model = load_model()

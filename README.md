@@ -8,8 +8,6 @@ This project is a prototype chatbot brain that can:
 - Expose predictions through a **Flask API** for integration with backend/frontend.
 
 It was built as part of a team project.  
-- **Your role**: ML model + chatbot logic.  
-- **Teammates**: Backend + Frontend integration.
 
 ## 🗂 Project Structure
 ```
